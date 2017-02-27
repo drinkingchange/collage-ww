@@ -1,0 +1,51 @@
+body{
+	font-family: "微软雅黑"，"Times New Roman",Times,serif;
+	padding:20px;
+	margin: 20px;
+	margin-bottom: 100px;
+	height: auto;
+	background-color: #eee;
+	border: 1px solid #999;
+}
+/*左边栏*/
+#team{
+	padding: 20px;
+	margin: 20px;
+	float: left;
+	width: 200px;
+	border: 1px solid #999;
+	background-color: #FFFFFF;
+}
+#teamlogo{
+	float: left;
+	padding: 20px;
+	margin: 0px;
+	border: none;
+}
+/*右边栏*/
+#pic{
+	margin: 20px;
+	padding: 20px;
+	float: right;
+	width: 120px;
+	border: 1px solid #999;
+	background-color: #FFFFFF;
+
+}
+/*中间的内容*/
+#content{ 
+margin-left: 285px;
+margin-right: 205px;
+padding: 20px;
+margin-top: 20px;
+margin-bottom: 380px;
+border: 1px solid #999;
+background-color: #FFFFFF;
+}
+.logor{
+	width: 80px;
+	height: 80px;
+	padding: 20px;
+	margin: 0px;
+	border: none;
+}
