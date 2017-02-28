@@ -1,0 +1,69 @@
+html,body{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+/*中间的矩形部分*/
+#main{
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-top: -100px;
+    margin-right: -200px;
+    }
+ /*把两个边长100px的正方形移到两个对角，并把它转换成圆形*/
+ #lt,#rb{
+ 	width: 100px;
+ 	height: 100px;
+ 	background: yellow;
+ 	position: absolute;
+ 	border-radius: 100px;
+ }
+ #lt{
+ 		top: 50%;
+ 	right:50%;
+ 	margin-top: -150px;
+ 	margin-right: 150px;
+ }
+ #rb{
+ 	top: 50%;
+ 	left: 50%;
+ 	margin-left: 150px;
+   margin-top: 50px;
+ }
+/*设计两条和网页背景色相同的长条盖住两个对角多余的部分，形成扇形*/
+ #left,#right{
+ 	background-color: white;
+ 	position: absolute;
+ 	width: 100px;
+ 	height: 100%;
+ 	z-index: 2;
+ }
+ #top,#bottom{
+ 	background-color: white;
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 100px;
+    z-index: 2;
+ }
+ #left{
+ 	left: 50%;
+ 	margin-left: -300px;
+ }
+ #right{
+ 	right: 50%;
+ 	margin-right: -300px;
+ }
+ #top{
+ 	top: 50%;
+ 	margin-top:-200px;
+ }
+ #bottom{
+ 	bottom: 50%;
+ 	margin-bottom: -200px;
+ }
