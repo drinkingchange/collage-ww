@@ -1,0 +1,86 @@
+body{
+	font-family: "微软雅黑","MicrosoftJhengHei","Times New Roman";
+	background-color: #FFFFFF;
+}
+header{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url(image/repeatflowers.jpg);
+	font-weight: bold;}
+#nav{
+	list-style-type: circle;
+	text-align: right;
+}
+article,aside{
+	position: relative;
+	margin: 16px;
+    padding: 25px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+       box-shadow: 0px 2px 2px 0px ;
+      
+}
+.picture{
+	float: left;
+	margin: 8px;
+	width: 200px;
+	height: 210px;
+	padding: 20px;
+	border-style: solid;
+	text-align: center;
+
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+}
+th{
+	background-color: #000000;
+	text-decoration-color: #FFFFFF;
+}
+#thefin{
+	background-color: #A9A9A9;
+}
+aside{margin-top: -1px;
+	width: 400px;
+	height: 600px;
+	float: right;
+	text-align: left;
+}
+article{
+	margin-right: 490px;
+}
+#introduce{
+	margin: 5px;
+	padding: 5px;
+	position: relative;
+	width: 50%;
+	height: 70px;
+
+}
+#submit{
+	position: relative;
+	margin: 5px;
+	padding: 5px;
+	width: 95%;
+	height: 50px;
+	border-radius: 20px;
+	background-color: blue;
+}
+footer{
+	width: 100%;
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+	height: 55px;
+	text-align: center;
+	clear: both;
+}
+.pic{
+	height: 2100px;
+	clear: both;
+}
