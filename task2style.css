@@ -1,3 +1,4 @@
+
 body{
 	font-family: "微软雅黑","MicrosoftJhengHei","Times New Roman";
 }
@@ -9,6 +10,9 @@ h1{
 #nav{
 	list-style-type: circle;
 	text-align: right;
+}
+li{
+	display:inline-block;
 }
 article,aside{
 	position: relative;
