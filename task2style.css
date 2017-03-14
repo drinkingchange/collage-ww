@@ -12,7 +12,7 @@ h1{
 	text-align: right;
 }
 li{
-	display:inline-block;
+	display:inline;
 }
 article,aside{
 	position: relative;
